@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!-- Remove unused AOSP repos -->
+  <include name="ExplosiveLobster/untracked.xml" />
+
+  <!-- Include forked ExplosiveLobster projects -->
+  <include name="ExplosiveLobster/el.xml" />
+
+  <!-- Include devices -->
+  <include name="ExplosiveLobster/device/sony.xml" />
+
+</manifest>

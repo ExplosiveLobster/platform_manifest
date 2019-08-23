@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote name="el"
+          fetch="https://github.com/ExplosiveLobster/" />
+
+  <project path="device/sony/common" name="device_sony_common" groups="device" remote="el" revision="android-10" />
+  <project path="device/sony/sepolicy" name="device_sony_sepolicy" groups="device" remote="el" revision="android-10" />
+
+  <!-- msm8956 -->
+  <project path="device/sony/loire" name="device_sony_loire" groups="device" remote="el" revision="android-10" />
+  <project path="device/sony/suzu" name="device_sony_suzu" groups="device" remote="el" revision="android-10" />
+
+  <!-- sdm630 -->
+  <project path="device/sony/nile" name="device_sony_nile" groups="device" remote="el" revision="android-10" />
+  <project path="device/sony/discovery" name="device_sony_discovery" groups="device" remote="el" revision="android-10" />
+
+  <project path="kernel/sony/msm-4.9" name="kernel_sony_msm-4.9" groups="device" remote="el" revision="LA.UM.7.8.r1" />
+
+  <project path="vendor/sony/display/sde" name="platform_vendor_sony_display_sde" groups="pdk-qcom,qcom,qcom_display" remote="el" revision="aosp/LA.UM.7.3.r1" />
+  <project path="vendor/sony/display/msmfb" name="platform_vendor_sony_display_msmfb" groups="pdk-qcom,qcom,qcom_display" remote="el" revision="aosp/LA.UM.6.3.r1" />
+  <project path="vendor/sony/fingerprint"  name="platform_vendor_sony_fingerprint" groups="device" remote="el" revision="master" />
+  <project path="vendor/sony/camera"  name="platform_vendor_sony_camera" groups="device" remote="el" revision="aosp/LA.UM.6.4.r1" />
+  <project path="vendor/sony/macaddrsetup"  name="platform_vendor_sony_macaddrsetup" groups="device" remote="el" revision="master" />
+
+  <project path="vendor/broadcom/wlan" name="platform_vendor_broadcom_wlan" groups="device" remote="el" revision="master" />
+
+  <project path="vendor/qcom/opensource/dataservices" name="platform_vendor_qcom_opensource_dataservices" remote="el" revision="LA.UM.8.1.r1-08600-sm8150.0" />
+  <project path="vendor/qcom/opensource/interfaces" name="platform_vendor_qcom_opensource_interfaces" remote="el" revision="LA.UM.8.1.r1-08600-sm8150.0" />
+
+
+</manifest>

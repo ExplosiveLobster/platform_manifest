@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote name="el"
+          fetch="https://github.com/ExplosiveLobster/" />
+
+  <project path="system/extras" name="platform_system_extras" groups="pdk" remote="el" revision="android-10" />
+  <project path="build/make" name="platform_build" groups="pdk"  remote="el" revision="android-10" >
+    <copyfile src="core/root.mk" dest="Makefile" />
+    <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
+    <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
+    <linkfile src="core" dest="build/core" />
+    <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
+    <linkfile src="target" dest="build/target" />
+    <linkfile src="tools" dest="build/tools" />
+  </project>
+  <project path="bionic" name="platform_bionic" groups="pdk" remote="el" revision="android-10" />
+  <project path="hardware/qcom/sdm845/gps" name="platform_hardware_qcom_sdm845_gps" groups="qcom,qcom_audio,pdk-qcom" remote="el" revision="android-10" />
+  <project path="hardware/qcom/media" name="platform_hardware_qcom_media" groups="qcom,qcom_audio,pdk-qcom" remote="el" revision="android-10" />
+  <project path="hardware/qcom/audio" name="platform_hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" remote="el" revision="android-10" />
+  <project path="hardware/qcom/sdm845/data/ipacfg-mgr" name="platform_hardware_qcom_sdm845_data_ipacfg-mgr" groups="vendor,qcom_sdm845" remote="el" revision="android-10">
+    <linkfile src="os_pickup.mk" dest="hardware/qcom/sdm845/Android.mk" />
+    <linkfile dest="hardware/qcom/sdm845/Android.bp" src="os_pickup.bp" />
+  </project>
+
+  <project path="vendor/el" name="platform_vendor_el" groups="device" remote="el" revision="android-10" >
+    <linkfile src="stop_scan.mk" dest="kernel/Android.mk" />
+    <linkfile src="stop_scan.mk" dest="vendor/sony/display/Android.mk" />
+  </project>
+
+</manifest>
