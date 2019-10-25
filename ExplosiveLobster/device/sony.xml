@@ -25,8 +25,4 @@
 
   <project path="vendor/broadcom/wlan" name="platform_vendor_broadcom_wlan" groups="device" remote="el" revision="master" />
 
-  <project path="vendor/qcom/opensource/dataservices" name="platform_vendor_qcom_opensource_dataservices" remote="el" revision="LA.UM.8.1.r1-08600-sm8150.0" />
-  <project path="vendor/qcom/opensource/interfaces" name="platform_vendor_qcom_opensource_interfaces" remote="el" revision="LA.UM.8.1.r1-08600-sm8150.0" />
-
-
 </manifest>
