@@ -25,6 +25,7 @@
 
   <project path="vendor/el" name="platform_vendor_el" groups="device" remote="el" revision="android-10" >
     <linkfile src="dlkm/AndroidKernelModule.mk" dest="device/qcom/common/dlkm/AndroidKernelModule.mk" />
+    <linkfile src="build/stop_scan.mk" dest="hardware/qcom/gps/Android.mk" />
     <linkfile src="build/stop_scan.mk" dest="kernel/Android.mk" />
     <linkfile src="build/stop_scan.mk" dest="vendor/sony/display/Android.mk" />
   </project>
