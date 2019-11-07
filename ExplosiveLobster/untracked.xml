@@ -57,6 +57,12 @@
   <remove-project name="device/ti/beagle-x15" />
   <remove-project name="device/ti/beagle-x15-kernel" />
 
+  <remove-project name="platform/hardware/google/apf" />
+  <remove-project name="platform/hardware/google/av" />
+  <remove-project name="platform/hardware/google/easel" />
+  <remove-project name="platform/hardware/google/interfaces" />
+  <remove-project name="platform/hardware/google/pixel" />
+
   <remove-project name="platform/hardware/qcom/audio" />
   <remove-project name="platform/hardware/qcom/media" />
   <remove-project name="platform/hardware/qcom/sdm845/data/ipacfg-mgr" />
