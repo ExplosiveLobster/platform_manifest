@@ -63,6 +63,8 @@
   <remove-project name="platform/hardware/google/interfaces" />
   <remove-project name="platform/hardware/google/pixel" />
 
+  <remove-project name="platform/hardware/knowles/athletico/sound_trigger_hal" />
+
   <remove-project name="platform/hardware/qcom/audio" />
   <remove-project name="platform/hardware/qcom/media" />
   <remove-project name="platform/hardware/qcom/sdm845/data/ipacfg-mgr" />
