@@ -15,6 +15,7 @@
     <linkfile src="tools" dest="build/tools" />
   </project>
   <project path="bionic" name="platform_bionic" groups="pdk" remote="el" revision="android-10" />
+
   <project path="hardware/qcom/sdm845/gps" name="platform_hardware_qcom_sdm845_gps" groups="qcom,qcom_audio,pdk-qcom" remote="el" revision="android-10" />
   <project path="hardware/qcom/media" name="platform_hardware_qcom_media" groups="qcom,qcom_audio,pdk-qcom" remote="el" revision="android-10" />
   <project path="hardware/qcom/audio" name="platform_hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" remote="el" revision="android-10" />
@@ -22,6 +23,9 @@
     <linkfile src="os_pickup.mk" dest="hardware/qcom/sdm845/Android.mk" />
     <linkfile dest="hardware/qcom/sdm845/Android.bp" src="os_pickup.bp" />
   </project>
+
+  <!-- CAF HALs for 4.9 kernel -->
+  <project path="hardware/qcom/caf-4.9/gps" name="platform_hardware_qcom_caf-4.9_gps" remote="el" revision="LA.UM.8.8.r1-05500-SDM710.0" />
 
   <project path="vendor/el" name="platform_vendor_el" groups="device" remote="el" revision="android-10" >
     <linkfile src="dlkm/AndroidKernelModule.mk" dest="device/qcom/common/dlkm/AndroidKernelModule.mk" />
