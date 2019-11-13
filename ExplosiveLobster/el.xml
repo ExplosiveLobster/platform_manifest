@@ -5,7 +5,7 @@
           fetch="https://github.com/ExplosiveLobster/" />
 
   <project path="system/extras" name="platform_system_extras" groups="pdk" remote="el" revision="android-10" />
-  <project path="build/make" name="platform_build" groups="pdk"  remote="el" revision="android-10" >
+  <project path="build/make" name="platform_build" groups="pdk" remote="el" revision="android-10" >
     <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
     <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
@@ -34,12 +34,12 @@
     <linkfile src="build/stop_scan.mk" dest="vendor/sony/display/Android.mk" />
   </project>
 
-  <project path="vendor/qcom/opensource/audio-kernel" name="platform_vendor_qcom_opensource_audio-kernel" remote="el" revision="LA.UM.8.8.r1-05500-SDM710.0"/>
+  <project path="vendor/qcom/opensource/audio-kernel" name="platform_vendor_qcom_opensource_audio-kernel" remote="el" revision="LA.UM.8.8.r1-05500-SDM710.0" />
   <project path="vendor/qcom/opensource/dataservices" name="platform_vendor_qcom_opensource_dataservices" remote="el" revision="LA.UM.8.8.r1-05500-SDM710.0" />
   <project path="vendor/qcom/opensource/interfaces" name="platform_vendor_qcom_opensource_interfaces" remote="el" revision="LA.UM.8.8.r1-05500-SDM710.0" />
-  <project path="vendor/qcom/opensource/location" name="platform_vendor_qcom_opensource_location" remote="el" revision="LA.UM.8.8.r1-05500-SDM710.0>
-  <project path="vendor/qcom/opensource/wlan/fw-api" name="platform_vendor_qcom_opensource_wlan_fw-api" remote="el" revision="LA.UM.8.8.r1-05500-SDM710.0"/>
-  <project path="vendor/qcom/opensource/wlan/qca-wifi-host-cmn" name="platform_vendor_qcom_opensource_wlan_qca-wifi-host-cmn" remote="el" revision="LA.UM.8.8.r1-05500-SDM710.0"/>
-  <project path="vendor/qcom/opensource/wlan/qcacld-3.0" name="platform_vendor_qcom_opensource_wlan_qcacld-3.0" remote="el" revision="LA.UM.8.8.r1-05500-SDM710.0"/>
+  <project path="vendor/qcom/opensource/location" name="platform_vendor_qcom_opensource_location" remote="el" revision="LA.UM.8.8.r1-05500-SDM710.0" />
+  <project path="vendor/qcom/opensource/wlan/fw-api" name="platform_vendor_qcom_opensource_wlan_fw-api" remote="el" revision="LA.UM.8.8.r1-05500-SDM710.0" />
+  <project path="vendor/qcom/opensource/wlan/qca-wifi-host-cmn" name="platform_vendor_qcom_opensource_wlan_qca-wifi-host-cmn" remote="el" revision="LA.UM.8.8.r1-05500-SDM710.0" />
+  <project path="vendor/qcom/opensource/wlan/qcacld-3.0" name="platform_vendor_qcom_opensource_wlan_qcacld-3.0" remote="el" revision="LA.UM.8.8.r1-05500-SDM710.0" />
 
 </manifest>
