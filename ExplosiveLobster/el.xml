@@ -16,7 +16,6 @@
   </project>
   <project path="bionic" name="platform_bionic" groups="pdk" remote="el" revision="android-10" />
 
-  <project path="hardware/qcom/sdm845/gps" name="platform_hardware_qcom_sdm845_gps" groups="qcom,qcom_audio,pdk-qcom" remote="el" revision="android-10" />
   <project path="hardware/qcom/media" name="platform_hardware_qcom_media" groups="qcom,qcom_audio,pdk-qcom" remote="el" revision="android-10" />
   <project path="hardware/qcom/audio" name="platform_hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" remote="el" revision="android-10" />
   <project path="hardware/qcom/sdm845/data/ipacfg-mgr" name="platform_hardware_qcom_sdm845_data_ipacfg-mgr" groups="vendor,qcom_sdm845" remote="el" revision="android-10">
