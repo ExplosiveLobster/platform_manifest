@@ -15,7 +15,7 @@
   <project path="device/sony/nile" name="device_sony_nile" groups="device" remote="el" revision="android-10" />
   <project path="device/sony/discovery" name="device_sony_discovery" groups="device" remote="el" revision="android-10" />
 
-  <project path="kernel/sony/msm-4.9" name="kernel_sony_msm-4.9" groups="device" remote="el" revision="LA.UM.8.8.r1-05500-SDM710.0" />
+  <project path="kernel/sony/msm-4.9" name="kernel_sony_msm-4.9" groups="device" remote="el" revision="LA.UM.8.8.r1-05800-SDM710.0" />
 
   <project path="vendor/sony/display/sde" name="platform_vendor_sony_display_sde" groups="pdk-qcom,qcom,qcom_display" remote="el" revision="aosp/LA.UM.7.3.r1" />
   <project path="vendor/sony/display/msmfb" name="platform_vendor_sony_display_msmfb" groups="pdk-qcom,qcom,qcom_display" remote="el" revision="aosp/LA.UM.6.3.r1" />
