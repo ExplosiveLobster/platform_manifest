@@ -14,6 +14,10 @@
     <linkfile src="target" dest="build/target" />
     <linkfile src="tools" dest="build/tools" />
   </project>
+  <project path="build/soong" name="platform_build_soong" groups="pdk,tradefed" remote="el" revision="android-10"  >
+    <linkfile src="root.bp" dest="Android.bp" />
+    <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
+  </project>
   <project path="bionic" name="platform_bionic" groups="pdk" remote="el" revision="android-10" />
 
   <project path="hardware/qcom/media" name="platform_hardware_qcom_media" groups="qcom,qcom_audio,pdk-qcom" remote="el" revision="android-10" />
