@@ -17,8 +17,6 @@
 
   <project path="kernel/sony/msm-4.9" name="kernel_sony_msm-4.9" groups="device" remote="el" revision="LA.UM.8.8.r1-05800-SDM710.0" />
 
-  <project path="vendor/sony/display/sde" name="platform_vendor_sony_display_sde" groups="pdk-qcom,qcom,qcom_display" remote="el" revision="aosp/LA.UM.7.3.r1" />
-  <project path="vendor/sony/display/msmfb" name="platform_vendor_sony_display_msmfb" groups="pdk-qcom,qcom,qcom_display" remote="el" revision="aosp/LA.UM.6.3.r1" />
   <project path="vendor/sony/fingerprint"  name="platform_vendor_sony_fingerprint" groups="device" remote="el" revision="master" />
   <project path="vendor/sony/camera"  name="platform_vendor_sony_camera" groups="device" remote="el" revision="aosp/LA.UM.6.4.r1" />
   <project path="vendor/sony/macaddrsetup"  name="platform_vendor_sony_macaddrsetup" groups="device" remote="el" revision="master" />
