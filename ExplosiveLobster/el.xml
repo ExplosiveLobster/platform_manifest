@@ -31,7 +31,6 @@
     <linkfile src="dlkm/AndroidKernelModule.mk" dest="device/qcom/common/dlkm/AndroidKernelModule.mk" />
     <linkfile src="build/stop_scan.mk" dest="hardware/qcom/caf-4.9/Android.mk" />
     <linkfile src="build/stop_scan.mk" dest="kernel/Android.mk" />
-    <linkfile src="build/stop_scan.mk" dest="vendor/sony/display/Android.mk" />
   </project>
 
   <project path="vendor/qcom/opensource/audio-kernel" name="platform_vendor_qcom_opensource_audio-kernel" remote="el" revision="LA.UM.8.8.r1-05800-SDM710.0" />
