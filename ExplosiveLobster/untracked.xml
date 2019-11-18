@@ -90,7 +90,6 @@
   <remove-project name="platform/hardware/qcom/sm8150/media" />
   <remove-project name="platform/hardware/qcom/sm8150/thermal" />
   <remove-project name="platform/hardware/qcom/sm8150/vr" />
-  <remove-project name="platform/hardware/qcom/wlan" />
 
   <remove-project name="platform/system/extras" />
 
