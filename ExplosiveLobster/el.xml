@@ -20,7 +20,7 @@
   </project>
   <project path="bionic" name="platform_bionic" groups="pdk" remote="el" revision="android-10" />
 
-  <project path="external/json-c" name="platform_external_json-c" remote="el" revision="LA.UM.8.8.r1-05800-SDM710.0" "/>
+  <project path="external/json-c" name="platform_external_json-c" remote="el" revision="android-10" "/>
 
   <!-- CAF HALs for 4.9 kernel -->
   <project path="hardware/qcom/caf-4.9/audio" name="platform_hardware_qcom_caf-4.9_audio" remote="el" revision="LA.UM.8.8.r1-05800-SDM710.0" />
