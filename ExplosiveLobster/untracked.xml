@@ -57,8 +57,8 @@
   <remove-project name="device/ti/beagle-x15" />
   <remove-project name="device/ti/beagle-x15-kernel" />
 
+  <remove-project name="platform/hardware/interfaces" />
   <remove-project name="platform/hardware/knowles/athletico/sound_trigger_hal" />
-
   <remove-project name="platform/hardware/qcom/audio" />
   <remove-project name="platform/hardware/qcom/bt" />
   <remove-project name="platform/hardware/qcom/camera" />
