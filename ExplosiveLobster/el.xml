@@ -28,7 +28,6 @@
   <project path="hardware/qcom/caf-4.9/audio" name="platform_hardware_qcom_caf-4.9_audio" remote="el" revision="LA.UM.8.8.r1-05800-SDM710.0" />
   <project path="hardware/qcom/caf-4.9/data-ipa-cfg-mgr" name="platform_hardware_qcom_caf-4.9_data-ipa-cfg-mgr" remote="el" revision="LA.UM.8.8.r1-05800-SDM710.0" />
   <project path="hardware/qcom/caf-4.9/display" name="platform_hardware_qcom_caf-4.9_display" remote="el" revision="LA.UM.8.8.r1-05800-SDM710.0" />
-  <project path="hardware/qcom/caf-4.9/display-staging" name="platform_hardware_qcom_caf-4.9_display" remote="el" revision="LA.UM.8.8.r1-staging" />
   <project path="hardware/qcom/caf-4.9/gps" name="platform_hardware_qcom_caf-4.9_gps" remote="el" revision="LA.UM.8.8.r1-05800-SDM710.0" />
   <project path="hardware/qcom/caf-4.9/media" name="platform_hardware_qcom_caf-4.9_media" remote="el" revision="LA.UM.8.8.r1-05800-SDM710.0" />
   <project path="hardware/qcom/caf-4.9/media-staging" name="platform_hardware_qcom_caf-4.9_media" remote="el" revision="LA.UM.8.6.2.r1-04900-89xx.0" />
