@@ -2,7 +2,8 @@
 <manifest>
 
   <remote name="el"
-          fetch="https://github.com/ExplosiveLobster/" />
+          fetch="https://github.com/ExplosiveLobster"
+          pushurl="git@github.com:ExplosiveLobster" />
 
   <project path="system/extras" name="platform_system_extras" groups="pdk" remote="el" revision="android-10" />
   <project path="build/make" name="platform_build" groups="pdk" remote="el" revision="android-10" >
@@ -24,7 +25,7 @@
 
   <project path="frameworks/base" name="platform_frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="el" revision="android-10" />
 
-  <project path="hardware/interfaces" name="platform_hardware_interfaces" groups="pdk" remote="el" revision="android-10" />  
+  <project path="hardware/interfaces" name="platform_hardware_interfaces" groups="pdk" remote="el" revision="android-10" />
 
   <!-- CAF HALs for 4.9 kernel -->
   <project path="hardware/qcom/caf-4.9/audio" name="platform_hardware_qcom_caf-4.9_audio" remote="el" revision="LA.UM.8.8.r1-06100-SDM710.0" />

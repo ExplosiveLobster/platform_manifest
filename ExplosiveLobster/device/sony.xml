@@ -2,7 +2,8 @@
 <manifest>
 
   <remote name="el"
-          fetch="https://github.com/ExplosiveLobster/" />
+          fetch="https://github.com/ExplosiveLobster"
+          pushurl="git@github.com:ExplosiveLobster" />
 
   <project path="device/sony/common" name="device_sony_common" groups="device" remote="el" revision="android-10" />
   <project path="device/sony/sepolicy" name="device_sony_sepolicy" groups="device" remote="el" revision="android-10" />
