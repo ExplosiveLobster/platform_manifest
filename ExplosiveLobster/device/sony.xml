@@ -5,20 +5,22 @@
           fetch="https://github.com/ExplosiveLobster"
           pushurl="git@github.com:ExplosiveLobster" />
 
-  <project path="device/sony/common" name="device_sony_common" groups="device" remote="el" revision="android-10" />
-  <project path="device/sony/sepolicy" name="device_sony_sepolicy" groups="device" remote="el" revision="android-10" />
+  <project path="device/sony/common" name="device_sony_common" groups="device" remote="el" revision="android-10_k4.14" />
+  <project path="device/sony/sepolicy" name="device_sony_sepolicy" groups="device" remote="el" revision="android-10_k4.14" />
 
   <!-- msm8956 -->
-  <project path="device/sony/loire" name="device_sony_loire" groups="device" remote="el" revision="android-10" />
-  <project path="device/sony/suzu" name="device_sony_suzu" groups="device" remote="el" revision="android-10" />
+  <project path="device/sony/loire" name="device_sony_loire" groups="device" remote="el" revision="android-10_k4.14" />
+  <!--<project path="device/sony/kugo" name="device_sony_kugo" groups="device" remote="el" revision="android-10_k4.14" />-->
+  <project path="device/sony/suzu" name="device_sony_suzu" groups="device" remote="el" revision="android-10_k4.14" />
 
   <!-- sdm630 -->
-  <project path="device/sony/nile" name="device_sony_nile" groups="device" remote="el" revision="android-10" />
-  <project path="device/sony/discovery" name="device_sony_discovery" groups="device" remote="el" revision="android-10" />
+  <!--<project path="device/sony/nile" name="device_sony_nile" groups="device" remote="el" revision="android-10" />
+  <project path="device/sony/discovery" name="device_sony_discovery" groups="device" remote="el" revision="android-10" />-->
 
-  <project path="kernel/sony/msm-4.9" name="kernel_sony_msm-4.9" groups="device" remote="el" revision="LA.UM.8.8.r1-06100-SDM710.0" />
+  <!--<project path="kernel/sony/msm-4.9" name="kernel_sony_msm-4.9" groups="device" remote="el" revision="LA.UM.8.8.r1-06100-SDM710.0" />-->
+  <project path="kernel/sony/msm-4.14" name="kernel_sony_msm-4.9" groups="device" remote="el" revision="LA.UM.8.11.r1-02200-NICOBAR.0" />
 
-  <project path="vendor/sony/fingerprint"  name="platform_vendor_sony_fingerprint" groups="device" remote="el" revision="master" />
+  <!--<project path="vendor/sony/fingerprint"  name="platform_vendor_sony_fingerprint" groups="device" remote="el" revision="master" />-->
   <project path="vendor/sony/camera"  name="platform_vendor_sony_camera" groups="device" remote="el" revision="aosp/LA.UM.6.4.r1" />
   <project path="vendor/sony/macaddrsetup"  name="platform_vendor_sony_macaddrsetup" groups="device" remote="el" revision="master" />
 
