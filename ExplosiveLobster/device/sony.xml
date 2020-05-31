@@ -16,7 +16,7 @@
   <project path="device/sony/nile" name="device_sony_nile" groups="device" remote="el" revision="android-10" />
   <project path="device/sony/discovery" name="device_sony_discovery" groups="device" remote="el" revision="android-10" />
 
-  <project path="kernel/sony/msm-4.9" name="kernel_sony_msm-4.9" groups="device" remote="el" revision="LA.UM.8.8.r1-06100-SDM710.0" />
+  <project path="kernel/sony/msm-4.9" name="kernel_sony_msm-4.9" groups="device" remote="el" revision="LA.UM.8.8.r1-07500-SDM710.0" />
 
   <project path="vendor/sony/fingerprint"  name="platform_vendor_sony_fingerprint" groups="device" remote="el" revision="master" />
   <project path="vendor/sony/camera"  name="platform_vendor_sony_camera" groups="device" remote="el" revision="aosp/LA.UM.6.4.r1" />
