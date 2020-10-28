@@ -33,7 +33,7 @@
   <project path="hardware/qcom/caf-4.9/audio" name="platform_hardware_qcom_caf-4.9_audio" remote="el" revision="LA.UM.9.8.r1-02900-SDM710.0" />
   <project path="hardware/qcom/caf-4.9/data-ipa-cfg-mgr" name="platform_hardware_qcom_caf-4.9_data-ipa-cfg-mgr" remote="el" revision="LA.UM.9.8.r1-02900-SDM710.0" />
   <project path="hardware/qcom/caf-4.9/display" name="platform_hardware_qcom_caf-4.9_display" remote="el" revision="LA.UM.9.8.r1-02900-SDM710.0" />
-  <project path="hardware/qcom/caf-4.9/gps" name="platform_hardware_qcom_caf-4.9_gps" remote="el" revision="LA.UM.9.8.r1-02900-SDM710.0" />
+  <project path="hardware/qcom/caf-4.9/gps" name="platform_hardware_qcom_caf-4.9_gps" remote="el" revision="LA.UM.8.8.r1-06100-SDM710.0" />
   <project path="hardware/qcom/caf-4.9/media" name="platform_hardware_qcom_caf-4.9_media" remote="el" revision="LA.UM.9.8.r1-02900-SDM710.0" />
   <project path="hardware/qcom/caf-4.9/media-staging" name="platform_hardware_qcom_caf-4.9_media" remote="el" revision="LA.UM.8.6.2.r1-04900-89xx.0" />
 
@@ -48,7 +48,7 @@
   <project path="vendor/qcom/opensource/dataservices" name="platform_vendor_qcom_opensource_dataservices" remote="el" revision="LA.UM.9.8.r1-02900-SDM710.0" />
   <project path="vendor/qcom/opensource/display-commonsys-intf" name="platform_vendor_qcom_opensource_display-commonsys-intf" remote="el" revision="LA.UM.9.8.r1-02900-SDM710.0" />
   <project path="vendor/qcom/opensource/interfaces" name="platform_vendor_qcom_opensource_interfaces" remote="el" revision="LA.UM.9.8.r1-02900-SDM710.0" />
-  <project path="vendor/qcom/opensource/location" name="platform_vendor_qcom_opensource_location" remote="el" revision="LA.UM.9.8.r1-02900-SDM710.0" />
+  <project path="vendor/qcom/opensource/location" name="platform_vendor_qcom_opensource_location" remote="el" revision="LA.UM.8.8.r1-06100-SDM710.0" />
   <!--<project path="vendor/qcom/opensource/wlan/fw-api" name="platform_vendor_qcom_opensource_wlan_fw-api" remote="el" revision="LA.UM.8.8.r1-06100-SDM710.0" />
   <project path="vendor/qcom/opensource/wlan/qca-wifi-host-cmn" name="platform_vendor_qcom_opensource_wlan_qca-wifi-host-cmn" remote="el" revision="LA.UM.8.8.r1-06100-SDM710.0" />
   <project path="vendor/qcom/opensource/wlan/qcacld-3.0" name="platform_vendor_qcom_opensource_wlan_qcacld-3.0" remote="el" revision="LA.UM.8.8.r1-06100-SDM710.0" />-->
