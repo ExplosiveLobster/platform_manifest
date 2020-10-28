@@ -31,7 +31,6 @@
 
   <!-- CAF HALs for 4.9 kernel -->
   <project path="hardware/qcom/caf-4.9/audio" name="platform_hardware_qcom_caf-4.9_audio" remote="el" revision="LA.UM.9.8.r1-02900-SDM710.0" />
-  <project path="hardware/qcom/caf-4.9/data-ipa-cfg-mgr" name="platform_hardware_qcom_caf-4.9_data-ipa-cfg-mgr" remote="el" revision="LA.UM.9.8.r1-02900-SDM710.0" />
   <project path="hardware/qcom/caf-4.9/display" name="platform_hardware_qcom_caf-4.9_display" remote="el" revision="LA.UM.9.8.r1-02900-SDM710.0" />
   <project path="hardware/qcom/caf-4.9/gps" name="platform_hardware_qcom_caf-4.9_gps" remote="el" revision="LA.UM.8.8.r1-06100-SDM710.0" />
   <project path="hardware/qcom/caf-4.9/media" name="platform_hardware_qcom_caf-4.9_media" remote="el" revision="LA.UM.9.8.r1-02900-SDM710.0" />
@@ -46,6 +45,8 @@
 
   <project path="vendor/qcom/opensource/audio-kernel" name="platform_vendor_qcom_opensource_audio-kernel" remote="el" revision="LA.UM.9.8.r1-02900-SDM710.0" />
   <project path="vendor/qcom/opensource/dataservices" name="platform_vendor_qcom_opensource_dataservices" remote="el" revision="LA.UM.9.8.r1-02900-SDM710.0" />
+  <!-- TODO: Rename this repo to platform_vendor_qcom_opensource_data-ipa-cfg-mgr when we will drop Android 10 -->
+  <project path="vendor/qcom/opensource/data-ipa-cfg-mgr" name="platform_hardware_qcom_caf-4.9_data-ipa-cfg-mgr" remote="el" revision="LA.UM.9.8.r1-02900-SDM710.0" />
   <project path="vendor/qcom/opensource/display-commonsys-intf" name="platform_vendor_qcom_opensource_display-commonsys-intf" remote="el" revision="LA.UM.9.8.r1-02900-SDM710.0" />
   <project path="vendor/qcom/opensource/interfaces" name="platform_vendor_qcom_opensource_interfaces" remote="el" revision="LA.UM.9.8.r1-02900-SDM710.0" />
   <project path="vendor/qcom/opensource/location" name="platform_vendor_qcom_opensource_location" remote="el" revision="LA.UM.8.8.r1-06100-SDM710.0" />
