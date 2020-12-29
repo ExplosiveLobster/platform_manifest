@@ -23,6 +23,8 @@
   </project>
   <project path="bionic" name="platform_bionic" groups="pdk" remote="el" revision="android-11" />
 
+  <project path="bootable/recovery" name="platform_bootable_recovery" groups="pdk" remote="el" revision="android-11" />
+
   <!--<project path="external/json-c" name="platform_external_json-c" remote="el" revision="android-10" />-->
 
   <project path="device/qcom/kernelscripts" name="device_qcom_kernelscripts" remote="el" revision="android-11" />
