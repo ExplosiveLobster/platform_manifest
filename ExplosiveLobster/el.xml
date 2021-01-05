@@ -29,6 +29,8 @@
 
   <project path="device/qcom/kernelscripts" name="device_qcom_kernelscripts" remote="el" revision="android-11" />
 
+  <project path="external/tinycompress" name="platform_external_tinycompress" groups="pdk" remote="el" revision="LA.UM.9.8.r1-03200-SDM710.0" />
+
   <!--<project path="frameworks/base" name="platform_frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="el" revision="android-10" />-->
 
   <project path="hardware/interfaces" name="platform_hardware_interfaces" groups="pdk" remote="el" revision="android-11" />
