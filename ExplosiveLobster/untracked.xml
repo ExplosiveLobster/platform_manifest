@@ -70,7 +70,7 @@
 
   <remove-project name="platform/external/tinycompress" />
 
-  <!--<remove-project name="platform/frameworks/base" />-->
+  <remove-project name="platform/frameworks/base" />
 
   <remove-project name="platform/hardware/interfaces" />
   <remove-project name="platform/hardware/nxp/nfc" />
@@ -111,6 +111,8 @@
   <remove-project name="platform/hardware/qcom/sm8150/vr" />
   <remove-project name="platform/hardware/qcom/sm8150p/gps" />
 
+  <!-- PermissionController -->
+  <remove-project name="platform/packages/apps/PackageInstaller" />
   <!--<remove-project name="platform/packages/apps/Launcher3" />
   <remove-project name="platform/packages/apps/QuickSearchBox" />
 
