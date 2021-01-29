@@ -45,11 +45,11 @@
   <project path="hardware/qcom/caf-4.9/media-staging" name="platform_hardware_qcom_caf-4.9_media" remote="el" revision="LA.UM.8.6.2.r1-04900-89xx.0" />
 
   <project path="packages/apps/ExactCalculator" name="platform_packages_apps_ExactCalculator" groups="pdk-fs" remote="el" revision="android-11" />
+  <project path="packages/apps/Launcher3" name="platform_packages_apps_Launcher3" groups="pdk-fs" remote="el" revision="android-11" />
   <project path="packages/apps/PermissionController" name="platform_packages_apps_PermissionController" groups="pdk-cw-fs,pdk-fs" remote="el" revision="android-11" />
   <project path="packages/apps/SnapdragonCamera" name="platform_packages_apps_SnapdragonCamera" groups="pdk-fs" remote="el" revision="android-11" />
   <project path="packages/apps/SnapdragonGallery" name="platform_packages_apps_SnapdragonGallery" groups="pdk-fs" remote="el" revision="android-11" />
   <project path="packages/apps/SnapdragonMusic" name="platform_packages_apps_SnapdragonMusic" groups="pdk-fs" remote="el" revision="android-11" />
-  <!--<project path="packages/apps/Launcher3" name="platform_packages_apps_Launcher3" groups="pdk-fs" remote="el" revision="android-10" />-->
 
   <project path="vendor/el" name="platform_vendor_el" groups="device" remote="el" revision="android-11" >
     <linkfile src="dlkm/AndroidKernelModule.mk" dest="device/qcom/common/dlkm/AndroidKernelModule.mk" />
