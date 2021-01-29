@@ -64,8 +64,10 @@
   <!-- TODO: Rename this repo to platform_vendor_qcom_opensource_data-ipa-cfg-mgr when we will drop Android 10 -->
   <project path="vendor/qcom/opensource/data-ipa-cfg-mgr" name="platform_hardware_qcom_caf-4.9_data-ipa-cfg-mgr" remote="el" revision="LA.UM.9.8.r1-03200-SDM710.0" />
   <project path="vendor/qcom/opensource/display-commonsys-intf" name="platform_vendor_qcom_opensource_display-commonsys-intf" remote="el" revision="LA.UM.9.8.r1-03200-SDM710.0" />
+  <project path="vendor/qcom/opensource/healthd-ext" name="platform_vendor_qcom_opensource_healthd-ext" remote="el" revision="LA.UM.9.8.r1-03200-SDM710.0" />
   <project path="vendor/qcom/opensource/interfaces" name="platform_vendor_qcom_opensource_interfaces" remote="el" revision="LA.UM.9.8.r1-03200-SDM710.0" />
   <project path="vendor/qcom/opensource/location" name="platform_vendor_qcom_opensource_location" remote="el" revision="LA.UM.9.8.r1-03200-SDM710.0" />
+  <project path="vendor/qcom/opensource/power" name="platform_vendor_qcom_opensource_power" remote="el" revision="LA.UM.9.8.r1-03200-SDM710.0" />
   <!--<project path="vendor/qcom/opensource/wlan/fw-api" name="platform_vendor_qcom_opensource_wlan_fw-api" remote="el" revision="LA.UM.8.8.r1-06100-SDM710.0" />
   <project path="vendor/qcom/opensource/wlan/qca-wifi-host-cmn" name="platform_vendor_qcom_opensource_wlan_qca-wifi-host-cmn" remote="el" revision="LA.UM.8.8.r1-06100-SDM710.0" />
   <project path="vendor/qcom/opensource/wlan/qcacld-3.0" name="platform_vendor_qcom_opensource_wlan_qcacld-3.0" remote="el" revision="LA.UM.8.8.r1-06100-SDM710.0" />-->
