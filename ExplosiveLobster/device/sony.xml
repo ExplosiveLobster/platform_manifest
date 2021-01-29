@@ -23,6 +23,7 @@
   <project path="vendor/sony/fingerprint" name="platform_vendor_sony_fingerprint" groups="device" remote="el" revision="master" />
   <project path="vendor/sony/macaddrsetup" name="platform_vendor_sony_macaddrsetup" groups="device" remote="el" revision="master" />
   <project path="vendor/sony/QcRilAm" name="platform_vendor_sony_QcRilAm" groups="device" remote="el" revision="master" />
+  <project path="vendor/sony/timekeep" name="platform_vendor_sony_timekeep" groups="device" remote="el" revision="master" />
 
   <project path="vendor/broadcom/wlan" name="platform_vendor_broadcom_wlan" groups="device" remote="el" revision="master" />
 
