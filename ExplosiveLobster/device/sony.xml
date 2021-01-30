@@ -25,6 +25,9 @@
   <project path="vendor/sony/QcRilAm" name="platform_vendor_sony_QcRilAm" groups="device" remote="el" revision="master" />
   <project path="vendor/sony/timekeep" name="platform_vendor_sony_timekeep" groups="device" remote="el" revision="master" />
 
+  <!-- BLOBs -->
+  <project path="vendor/sony/loire" name="platform_vendor_sony_loire" groups="device" remote="el" revision="master" />
+
   <project path="vendor/broadcom/wlan" name="platform_vendor_broadcom_wlan" groups="device" remote="el" revision="master" />
 
 </manifest>
