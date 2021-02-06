@@ -6,6 +6,9 @@
           pushurl="git@github.com:ExplosiveLobster" />
   <remote name="nxp"
           fetch="https://github.com/NXP" />
+  <remote name="stevesoltys-github"
+    fetch="https://github.com/stevesoltys/"
+    revision="refs/heads/master" />
 
   <!--<project path="system/extras" name="platform_system_extras" groups="pdk" remote="el" revision="android-10" />-->
   <project path="build/make" name="platform_build" groups="pdk" remote="el" revision="android-11" >
@@ -50,6 +53,7 @@
   <project path="packages/apps/SnapdragonCamera" name="platform_packages_apps_SnapdragonCamera" groups="pdk-fs" remote="el" revision="android-11" />
   <project path="packages/apps/SnapdragonGallery" name="platform_packages_apps_SnapdragonGallery" groups="pdk-fs" remote="el" revision="android-11" />
   <project path="packages/apps/SnapdragonMusic" name="platform_packages_apps_SnapdragonMusic" groups="pdk-fs" remote="el" revision="android-11" />
+  <project path="packages/apps/Seedvault" name="seedvault-prebuilt" remote="stevesoltys-github" />
 
   <project path="vendor/el" name="platform_vendor_el" groups="device" remote="el" revision="android-11" >
     <linkfile src="dlkm/AndroidKernelModule.mk" dest="device/qcom/common/dlkm/AndroidKernelModule.mk" />
